@@ -5,10 +5,12 @@
              x:Class="MobileApp.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
+        <!-- Place new controls herei -->
     	<Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button x:Name="speechButton" Text="speak"></Button>
+        <Label x:Name="speechTextLabel"></Label>
     </StackLayout>
 
 </ContentPage>
